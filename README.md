@@ -9,7 +9,7 @@ Este repositório contém os códigos-fonte para a resolução dos dois desafios
 
 Isso permite que você veja a solução em ação sem precisar configurar ou instalar qualquer ambiente de desenvolvimento localmente.
 
-Para executar o programa, é só clicar no botão <span style="color:green">RUN ►</span>
+Para executar o programa, é só clicar no botão RUN ►
  
 ## Resolução dos desafios
 
