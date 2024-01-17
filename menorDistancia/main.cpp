@@ -8,10 +8,12 @@ int main()
     int distanciaMin = INT_MAX;
     int valora;
     int valorb;
-    int t = sizeof(int);
-    for (int i = 0; i < (sizeof(array1) / t); i++)
+    int tamanho1 = sizeof(array1)/sizeof(int);
+    int tamanho2 = sizeof(array2)/sizeof(int);
+    
+    for (int i = 0; i < tamanho1; i++)
     {
-        for (int j = 0; j < (sizeof(array2) / t); j++)
+        for (int j = 0; j < (sizeof(array2) / tamanho2); j++)
         {
             int distanc = abs(array1[i] - array2[j]);
             if (distanc < distanciaMin)
@@ -22,5 +24,5 @@ int main()
             }
         }
     }
-    printf("A menor distancia eh de %d e correspode aos valores %d e %d", distanciaMin, valora, valorb);
+    printf("A menor distancia equivale a %d e corresponde aos valores %d e %d", distanciaMin, valora, valorb);
 }
