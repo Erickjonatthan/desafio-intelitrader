@@ -13,7 +13,7 @@ int main()
     
     for (int i = 0; i < tamanho1; i++)
     {
-        for (int j = 0; j < (sizeof(array2) / tamanho2); j++)
+        for (int j = 0; j < tamanho2; j++)
         {
             int distanc = abs(array1[i] - array2[j]);
             if (distanc < distanciaMin)
